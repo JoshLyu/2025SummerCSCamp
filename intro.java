@@ -1,8 +1,12 @@
+import java.util.Scanner;
 public class intro {
     public static void main(String[] args)
     {
-        String name = "YY";
-        System.out.println("Hello, I am YY on Aug 17 2025");
-        System.out.println(name);
+
+        Scanner scanner = new Scanner(System.in); // 从控制台读取
+        String name = scanner.nextLine();
+        System.out.println("Hello, I am "+name+" on Aug 6 2025");
+        System.out.println("Hello, I am Emma on Aug 6 2025");
+
     }
 }
